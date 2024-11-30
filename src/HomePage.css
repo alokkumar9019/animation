@@ -1,0 +1,28 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 100vh;
+    background-color: #1d3557;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .start-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4850e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .start-button:hover {
+    background-color: #48d6e8;
+  }
+  
